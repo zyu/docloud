@@ -9,5 +9,13 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-
+   <modules>
+       <module>../docloud-consumer</module>
+       <module>../docloud-provider</module>
+       <module>../docloud-eureka</module>
+       <module>../docloud-hystrix-dashboard</module>
+       <module>../docloud-turbine</module>
+       <module>../docloud-demo-api</module>
+       <module>../docloud-api-gateway</module>
+   </modules>
 </project>
