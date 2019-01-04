@@ -1,6 +1,7 @@
 package com.docloud;
 
 import com.docloud.filter.AccessFilter;
+import com.docloud.filter.RateLimitFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
@@ -18,6 +19,11 @@ public class DocloudApiGatewayApplication {
 	@Bean
 	public AccessFilter accessFilter() {
 		return new AccessFilter();
+	}
+
+	@Bean
+	public RateLimitFilter rateLimitFilter() {
+		return new RateLimitFilter();
 	}
 
 	@Bean
