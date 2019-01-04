@@ -17,5 +17,7 @@
        <module>../docloud-turbine</module>
        <module>../docloud-demo-api</module>
        <module>../docloud-api-gateway</module>
+       <module>../docloud-config-client</module>
+       <module>../docloud-config-server</module>
    </modules>
 </project>
