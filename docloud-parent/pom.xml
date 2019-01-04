@@ -19,5 +19,7 @@
        <module>../docloud-api-gateway</module>
        <module>../docloud-config-client</module>
        <module>../docloud-config-server</module>
+       <module>../docloud-rabbitmq-hello</module>
+       <module>../docloud-stream-hello</module>
    </modules>
 </project>
