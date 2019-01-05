@@ -13,7 +13,6 @@
        <module>../docloud-consumer</module>
        <module>../docloud-provider</module>
        <module>../docloud-eureka</module>
-       <module>../docloud-hystrix-dashboard</module>
        <module>../docloud-turbine</module>
        <module>../docloud-demo-api</module>
        <module>../docloud-api-gateway</module>
@@ -21,5 +20,7 @@
        <module>../docloud-config-server</module>
        <module>../docloud-rabbitmq-hello</module>
        <module>../docloud-stream-hello</module>
+       <module>../docloud-trace-1</module>
+       <module>../docloud-trace-2</module>
    </modules>
 </project>

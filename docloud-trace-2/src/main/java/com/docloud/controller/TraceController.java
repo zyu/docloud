@@ -18,8 +18,6 @@ public class TraceController {
 	@RequestMapping(value = "/trace-2", method = RequestMethod.GET)
 	public String trace() {
 		log.info("===<call trace-2,TraceId={},SpanId={}>===", request.getHeader("X-B3-TraceId"), request.getHeader("X-B3-SpanId"));
-
-
 		return "trace";
 	}
 }

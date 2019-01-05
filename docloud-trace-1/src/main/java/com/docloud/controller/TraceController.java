@@ -34,7 +34,7 @@ public class TraceController {
 //		ServiceInstance serviceInstance = loadBalancerClient.choose("trace-2");
 //		String url = String.format("http://%s:$s", serviceInstance.getHost(), serviceInstance.getPort());
 //		return restTemplate.getForEntity(url + "/trace-2", String.class).getBody();
-		return restTemplate.getForEntity("http://trace-2/trace-2", String.class).getBody();
+		return restTemplate.getForEntity("http://TRACE-2/trace-2", String.class).getBody();
 	}
 
 	private String fallback() {
