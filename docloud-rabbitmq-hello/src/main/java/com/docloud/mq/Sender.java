@@ -17,6 +17,12 @@ public class Sender {
 		System.out.println("Sender:" + context);
 		this.rabbitTemplate.convertAndSend("hello", context);
 	}
+
+	public void sendWithExchange() {
+		String context = "hello" + new Date();
+		System.out.println("Sender:" + context);
+		this.rabbitTemplate.convertAndSend("exchange", "computer", context);
+	}
 }
 
 	
